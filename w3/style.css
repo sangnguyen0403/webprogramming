@@ -1,0 +1,42 @@
+h1{
+    color:rgb(255, 0, 0);
+}
+
+h2{
+    color: rgba(255, 0, 0, 0.8)
+}
+
+h3{
+    color: rgba(255, 0, 0, 0.55)
+}
+
+h4{
+    color: rgba(255, 0, 0, 0.3)
+}
+
+.active > a{
+    font-size: 20px;
+    font-weight: 800;
+    color: blue;
+}
+
+nav ul li a:hover{
+    color:rgb(255, 0, 0);
+}
+
+h1+p{
+    background-color: rgba(218, 236, 247, 0.884);
+    font-size: 40px;
+}
+
+.job-description > p{
+    background-color: rgba(175, 116, 231, 0.774);
+}
+
+tr:nth-child(even){
+    background-color: aquamarine;
+}
+
+tr:nth-child(odd){
+    background-color: yellow;
+}

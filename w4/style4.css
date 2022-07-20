@@ -1,0 +1,33 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header,footer{
+    width: 100%
+}
+
+header{
+    background-color: yellow
+}
+
+footer{
+    background-color: cyan;
+}
+
+main{
+    width: 100%;
+    display: flex;
+}
+
+div {
+    background: orange;
+    text-align: center;
+    border: 1px solid black;
+}
+
+@media screen and (max-width: 1023px) and (min-width: 768px) {
+    
+    
+}

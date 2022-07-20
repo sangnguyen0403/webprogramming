@@ -1,0 +1,59 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+header,footer{
+    width: 100%;
+    background-color: aqua;
+}
+
+header{
+    margin-bottom: 10px;
+    position: fixed;
+}
+
+footer{
+    margin-top: 10px;
+}
+
+#main{
+    display: flex;
+}
+
+#left{
+    background-color: red;
+    width: 30%;
+    min-width: 200px;
+}
+
+#right{
+    width: 15%;
+    background-color: blueviolet;
+}
+
+section {
+    width: 100%;
+}
+
+main{
+    flex: 1;
+    background-color: yellow;
+}
+
+aside,main{
+    margin: 0;
+}
+
+img{
+    width: 50%;
+    height: 50%;
+    border-radius: 50%;
+    border: 2px solid black;
+}
+
+.image{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
